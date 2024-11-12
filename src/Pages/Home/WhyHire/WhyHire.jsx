@@ -102,7 +102,8 @@ const WhyHire = () => {
     },
   ];
 
-  const epecificData = allData.find((item) => item.id === store);
+  const epecificData = allData?.find((item) => item?.id === store);
+
   const [tabIndex, setTabIndex] = useState(0);
 
   return (

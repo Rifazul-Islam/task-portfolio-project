@@ -89,16 +89,6 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      {/*  Core css use 
-      <div className="">
-        <div className="home-img">
-          <div className="img-box">
-            <div className="img-item">
-              <img src="https://i.ibb.co.com/fkfWKg2/my-profile.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };
