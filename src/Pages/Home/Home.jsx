@@ -21,10 +21,6 @@ const Home = () => {
         <MyBlogs> </MyBlogs>
       </div>
 
-      <div id="about">
-        <WhyHire></WhyHire>
-      </div>
-
       <div id="products">
         <LatestProjects></LatestProjects>
       </div>

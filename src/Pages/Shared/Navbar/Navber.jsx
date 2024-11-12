@@ -54,7 +54,7 @@ const Navber = () => {
             About
           </a>
 
-          <a
+          {/* <a
             className={`hover:text-[#7cf03d] ${
               activeLink === "products" ? "text-[#7cf03d]" : ""
             }`}
@@ -67,7 +67,7 @@ const Navber = () => {
             onClick={() => handleLinkClick("products")}
           >
             Products
-          </a>
+          </a> */}
 
           <a
             className={`hover:text-[#7cf03d] ${
