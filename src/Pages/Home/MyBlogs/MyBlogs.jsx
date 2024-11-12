@@ -5,6 +5,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { FaCode } from "react-icons/fa";
 import { FcSalesPerformance } from "react-icons/fc";
 const MyBlogs = () => {
+  // this is a blog array object
   const blogs = [
     {
       id: 1,
@@ -52,6 +53,7 @@ const MyBlogs = () => {
         data-aos="zoom-in-down"
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-4 px-2"
       >
+        {/* for map sistem implement */}
         {blogs.map((blog) => (
           <div
             key={blog.id}

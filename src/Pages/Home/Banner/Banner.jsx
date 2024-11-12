@@ -8,6 +8,7 @@ import { toast } from "react-toastify";
 const Banner = () => {
   return (
     <div className="text-white lg:h-[100vh]  flex flex-col-reverse lg:flex-row items-center px-2  justify-between lg:px-0">
+      {/* left side this banner  */}
       <div
         data-aos="fade-right"
         className="lg:w-1/2 mt-20 lg:mt-0  w-full px-2"
@@ -15,7 +16,7 @@ const Banner = () => {
         <h2 className=" text-[45px] lg:text-[55px] font-poppins font-bold">
           Rifazul Islam
         </h2>
-        <h3 className="text-[28px] space-x-2 flex gap-1 font-poppins font-semibold -mt-3 text-[#7cf03d]">
+        <h3 className="lg:text-[28px] text-xl space-x-2 flex gap-1 font-poppins font-semibold -mt-3 text-[#7cf03d]">
           I am,
           <Typewriter
             words={["Front end Developer"]}
@@ -49,7 +50,7 @@ const Banner = () => {
             </button>
           </div>
 
-          {/* social Icns  */}
+          {/* social Icons  */}
           <div className="flex lg:flex-row  items-center gap-2">
             <Link
               to="https://github.com/Rifazul-Islam"

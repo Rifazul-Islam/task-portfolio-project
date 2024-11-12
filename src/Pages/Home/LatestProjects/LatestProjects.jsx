@@ -30,6 +30,7 @@ const LatestProjects = () => {
       </h1>
 
       <div className=" mt-6 flex items-center gap-11 ">
+        {/* left side for use this div */}
         <div className="text-white  lg:flex hidden w-[40%]">
           <div>
             <h2 className="text-7xl text-gray-400 font-bold font-poppins">
@@ -52,6 +53,7 @@ const LatestProjects = () => {
           </div>
         </div>
 
+        {/* Swiper slider use side for use this div */}
         <Swiper
           slidesPerView={2}
           spaceBetween={30}

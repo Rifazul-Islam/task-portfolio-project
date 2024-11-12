@@ -15,7 +15,7 @@ const Home = () => {
   }, []);
   return (
     <div className="home">
-      {/* <Banner></Banner> */}
+      <Banner></Banner>
 
       <div id="blogs">
         <MyBlogs> </MyBlogs>

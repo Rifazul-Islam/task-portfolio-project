@@ -109,11 +109,13 @@ const WhyHire = () => {
   return (
     <div className="py-10 pt-36 lg:h-screen">
       <div>
+        {/* this section for react tabs package use */}
         <Tabs
           className="grid grid-cols-3 gap-8 lg:px-0 px-2 cursor-pointer"
           selectedIndex={tabIndex}
           onSelect={(index) => setTabIndex(index)}
         >
+          {/* tabs left side  */}
           <TabList
             data-aos="fade-up-right"
             className="lg:col-span-1 col-span-3 space-y-2"
@@ -151,7 +153,7 @@ const WhyHire = () => {
               About us
             </Tab>
           </TabList>
-
+          {/* tabs right  side  */}
           <div
             data-aos-duration="1500"
             data-aos="zoom-in"
