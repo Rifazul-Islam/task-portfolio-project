@@ -174,7 +174,7 @@ const WhyHire = () => {
                     {epecificData?.experData.map((item) => (
                       <div
                         key={item.id}
-                        className=" bg-gray-700 text-white p-2 py-4 rounded-lg"
+                        className=" bg-gray-700 text-white p-3 py-4 rounded-lg"
                       >
                         <p className="text-sm text-[#7cf03d]"> {item?.year} </p>
                         <h2 className="text-xl font-semibold font-poppins pt-0.5">
@@ -209,7 +209,7 @@ const WhyHire = () => {
                     {epecificData?.educataData.map((item) => (
                       <div
                         key={item.ids}
-                        className=" bg-gray-700 text-white p-2 py-4 rounded-lg"
+                        className=" bg-gray-700 text-white p-3 py-4 rounded-lg"
                       >
                         <div className="text-3xl pb-6 text-[#7cf03d]">
                           {item?.icons}
@@ -267,7 +267,7 @@ const WhyHire = () => {
                   {epecificData?.description}
                 </p>
               </div>
-              <div className="grid grid-cols-1 lg:grid-cols-1 gap-4 p-2 h-3/2 overflow-y-auto">
+              <div className="grid grid-cols-1 lg:grid-cols-1 gap-4 p-3 h-3/2 overflow-y-auto">
                 {epecificData?.aboutData && (
                   <>
                     {epecificData?.aboutData?.map((item) => (
@@ -276,7 +276,7 @@ const WhyHire = () => {
                         className=" bg-gray-700 text-white p-2 py-4 rounded-lg"
                       >
                         <div className=" flex justify-center text-[#7cf03d]">
-                          <p className="text-[16px] font-poppins font-semibold leading-2">
+                          <p className="text-[16px] font-semibold leading-2">
                             {item?.descrip}
                           </p>
                         </div>
