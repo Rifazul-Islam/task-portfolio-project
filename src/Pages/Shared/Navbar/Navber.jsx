@@ -2,26 +2,26 @@ import { useState, useEffect } from "react";
 import { Navbar, Dropdown, Avatar } from "flowbite-react";
 
 const Navber = () => {
-  const [scrollY, setScrollY] = useState(0);
-  const [isSticky, setIsSticky] = useState(false);
-  const [open, setOpen] = useState(false);
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrollY(window.scrollY);
+  // const [scrollY, setScrollY] = useState(0);
+  // const [isSticky, setIsSticky] = useState(false);
+  // const [open, setOpen] = useState(false);
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     setScrollY(window.scrollY);
 
-      if (window.scrollY >= 300) {
-        setIsSticky(true);
-      } else {
-        setIsSticky(false);
-      }
-    };
+  //     if (window.scrollY >= 300) {
+  //       setIsSticky(true);
+  //     } else {
+  //       setIsSticky(false);
+  //     }
+  //   };
 
-    window.addEventListener("scroll", handleScroll);
+  //   window.addEventListener("scroll", handleScroll);
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
 
   const [activeLink, setActiveLink] = useState("home");
 
