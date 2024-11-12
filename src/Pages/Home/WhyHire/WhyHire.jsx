@@ -95,11 +95,8 @@ const WhyHire = () => {
       aboutData: [
         {
           ids: 1,
-          descrip: "I'm a dedicated front-end developer with a passion,",
-        },
-        {
-          ids: 2,
-          descrip: "dedicated front-end developer with a passion for ",
+          descrip:
+            "I'm a dedicated front-end developer With a robust foundation in web development, I've mastered a plethora of tools and technologies including HTML5, CSS, React.js, and JavaScript, crafting seamless and visually captivating web experiences. I'm well-versed in modern CSS frameworks such as Tailwind CSS and Bootstrap, leveraging their power to enhance user interfaces.",
         },
       ],
     },
@@ -270,7 +267,7 @@ const WhyHire = () => {
                   {epecificData?.description}
                 </p>
               </div>
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 p-2 h-3/2 overflow-y-auto">
+              <div className="grid grid-cols-1 lg:grid-cols-1 gap-4 p-2 h-3/2 overflow-y-auto">
                 {epecificData?.aboutData && (
                   <>
                     {epecificData?.aboutData?.map((item) => (
@@ -278,8 +275,10 @@ const WhyHire = () => {
                         key={item.ids}
                         className=" bg-gray-700 text-white p-2 py-4 rounded-lg"
                       >
-                        <div className="text-3xl flex justify-center text-[#7cf03d]">
-                          <p className="text-[16px]"> {item?.descrip} </p>
+                        <div className=" flex justify-center text-[#7cf03d]">
+                          <p className="text-[16px] font-poppins font-semibold leading-2">
+                            {item?.descrip}
+                          </p>
                         </div>
                       </div>
                     ))}
