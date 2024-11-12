@@ -15,10 +15,14 @@ const Home = () => {
   }, []);
   return (
     <div className="home">
-      <Banner></Banner>
+      {/* <Banner></Banner> */}
 
       <div id="blogs">
         <MyBlogs> </MyBlogs>
+      </div>
+
+      <div id="about">
+        <WhyHire></WhyHire>
       </div>
 
       <div id="products">
